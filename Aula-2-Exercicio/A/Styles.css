@@ -1,0 +1,45 @@
+body{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+nav{
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    padding: 2rem;
+    justify-content: center;
+    height: 5rem;
+    margin-bottom: 0.1rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 255, 0);
+    height: 1rem;
+    padding: 2rem;
+    
+}
+
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 255);
+    height: 68rem;
+    padding: 2rem;
+    margin-bottom: 0.09rem;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: rgb(252, 252, 252);
+}

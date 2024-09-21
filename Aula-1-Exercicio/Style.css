@@ -1,0 +1,117 @@
+/* Mantive o nav-bar sem alterações */
+nav-bar {
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.ul-nav-bar {
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding-left: 0;
+    width: 100%;
+    height: 5rem;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ul-nav-bar li {
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.nav-bar__logo {
+    display: flex;
+    color: rgb(250, 250, 250);
+    background-color: #000000;
+    width: 45%;
+    height: 5rem;
+    border-radius: 0.4rem;
+    padding-right: 55rem;
+    
+}
+
+.nav-bar-li-logo {
+    display: flex;
+    justify-content: right;
+    gap: 13%;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.4rem;
+}
+
+.nav-bar-li-menu {
+    display: flex;
+    gap: 2rem; /* Espaço entre os itens */
+    
+}
+
+/* Ajustes feitos apenas nos outros elementos */
+.menu {
+    background-color: #f0e7e7;
+    display: flex;
+    gap: 5%;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.menu-ingrediente1, .menu-ingrediente2, .menu-ingrediente3 {
+    width: 30%; /* Mantém a divisão em 3 partes iguais */
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Letras brancas */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.menu-ingrediente1 ul, .menu-ingrediente2 ol {
+    list-style: none;
+    padding-left: 1rem; /* Recúo para listas */
+}
+
+.menu-ingrediente1 li, .menu-ingrediente2 li {
+    gap: 1.5rem; /* Espaçamento entre os itens */
+    display: flex;
+}
+
+.menu-ingrediente3 img {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+}
+
+/* Estilização do footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+footer a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor branca do texto */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin-top: 0.5rem;
+    padding: 2rem;
+    background-color: #000000;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
