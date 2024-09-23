@@ -4,6 +4,8 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 header {
@@ -88,8 +90,6 @@ main {
 
 .container-menu{
     padding: 1rem;
-    
-    
 }
 
 .container-menu-bloco{
@@ -118,8 +118,8 @@ main {
 
 .container-menu-bloco p{
     font-size: 1.3rem;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
 }
 .container-menu-bloco img {
     display: flex;
