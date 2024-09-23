@@ -5,7 +5,7 @@
 ## 🛠 Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica e acessível para o site.
-- **CSS3**: Estilização completa com layout responsivo.
+- **CSS3**: Estilização completa com layout responsivo até onde deu sem media query.
 - **FontAwesome**: Ícones elegantes para redes sociais e interações visuais.
 - **Google Fonts**: Tipografia personalizada para uma experiência visual mais rica.
 
