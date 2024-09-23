@@ -34,18 +34,24 @@
         <h2 class="container-titulo-info-1">Seja bem-vindo!</h2> 
         <article class="container-menu">
             <div class="container-menu-bloco-cima"> 
-                <div class="container-menu-bloco-1"> 
-                    <img src="../P1/Asset/bloco-1.png" alt="cafe">
+                <div class="container-menu-bloco-1">
+                    <a href="https://www.civitatis.com/blog/pt-br/melhores-cafes-mundo/#:~:text=A%20variedade%20100%25%20ar%C3%A1bica%20possui,que%20n%C3%A3o%20lhe%20deixar%C3%A1%20indiferente." target="_blank">
+                        <img src="../P1/Asset/bloco-1.png" alt="cafe">
+                    </a> 
                     <h2>Melhor café!</h2>
                     <p>Melhor café do mundo, voce conhece?<br>Veja como é produzido o melhor café do mundo!</p>
                 </div>
                 <div class="container-menu-bloco-2">
-                    <img src="../P1/Asset/bloco-2.png" alt="imagens de tipos de cafeteiras">
+                    <a href="https://blog.coffeemais.com/tipos-de-cafeteiras-para-o-cafe-especial/" target="_blank">
+                        <img src="../P1/Asset/bloco-2.png" alt="imagens de tipos de cafeteiras">
+                    </a>
                     <h2>Tipos de cafeteiras!</h2>
                     <p>Conhece a diferença de cada cafeteira?<br>Venha conferir os tipos de cafeteiras!</p>
                 </div>
                 <div class="container-menu-bloco-3">
-                    <img src="../P1/Asset/bloco-3.png" alt="marcas de cafe"> 
+                    <a href="https://globorural.globo.com/agricultura/cafe/noticia/2024/01/quais-sao-os-melhores-cafes-do-brasil.ghtml" target="_blank">
+                        <img src="../P1/Asset/bloco-3.png" alt="marcas de cafe">
+                    </a>
                     <h2>Melhores marcas de café no Brasil!</h2>
                     <p>Já esteve na dúvida de qual café adquirir? <br>Verifique a lista das melhores marcas!</p>
                 </div>
@@ -87,33 +93,24 @@
         </section>
         <h2 class="container-titulo-info-1">Newsletter</h2> 
         <section class="container-newsletter">
-            <div class="container-newsletter-bloco-1">
-                <h2>Assine nossa newsletter!</h2>
-                <p>Receba as melhores informações sobre café em seu e-mail!</p>
-            </div>
-            <div class="container-newsletter-2">
-                <div class="formulario">
-                    <div class="align-form">
-                        <div class="container-newsletter-bloco-2">
-                            <form action="">
-                                <input type="text" placeholder="Nome">
-                                <input type="text" placeholder="Digite seu e-mail">
-                            </form>
-                        </div>
-                        <div class="checkbox-newsletter">
-                            <form>
-                                <input type="checkbox" name="newsletter" id="newsletter">
-                                <label for="newsletter">Desejo receber e-mail's semanalmente</label>
-                            </form>
-                        </div>
-                        <div class="container-newsletter-bloco-3">
-                            <form>
-                                <button type="submit">Assinar</button>
-                            </form>
-                        </div>
-                        </div>
-                    </div>
+            <div class="container-newsletter-bloco">
+                <div class="container-newsletter-bloco-1">
+                    <h2>Assine nossa newsletter!</h2>
+                    <p>Receba as melhores informações sobre café em seu e-mail!</p>
                 </div>
+                    <form> 
+                        <fieldset> 
+                            <div class="container-newsletter-dados">
+                                <input class="campo-form" type="text" placeholder="Nome">
+                                <input  class="campo-form" type="text" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="checkbox-newsletter">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">Desejo receber e-mail's semanalmente</label>
+                            </div>
+                            <input class="newsletter-enviar" type="submit"></input>
+                        </fieldset>
+                    </form>
             </div>
         </section>
     </main>
