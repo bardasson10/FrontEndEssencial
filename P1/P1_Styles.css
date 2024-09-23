@@ -173,7 +173,7 @@ form{
     justify-content: center;
     align-items: center;
     align-content: center;
-    display: flex;
+    display: block;
 }
 
 .container-newsletter-2{
@@ -240,7 +240,6 @@ form{
     color: #D6BD98;
     border: none;
     cursor: pointer;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 1.2rem;
