@@ -189,6 +189,8 @@ main {
     margin: 0 auto;
     padding: 2rem;
     border: 1px solid #D6BD98;
+    border-radius: 1rem;
+    box-shadow: 0 0px 30px rgb(64, 84, 77, 0.9);
     gap: 1.5rem;
     height: 15rem;
 }
