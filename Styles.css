@@ -92,14 +92,18 @@ main {
 
 .container-menu{
     padding: 1rem;
+    align-items: center;
+    text-align: center;
 }
 
 .container-menu-bloco{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.85fr);
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
     gap: 2rem;
     
 }
@@ -107,6 +111,8 @@ main {
 .container-menu-bloco a{
     box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
     background-color: #677D6A;
+    padding: 0;
+    width: fit-content;
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
@@ -118,10 +124,17 @@ main {
     background-color: #40534C;
 }
 
-.container-menu-bloco p{
+.container-menu-bloco h2{
     font-size: 1.3rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.container-menu-bloco p{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .container-menu-bloco img {
     display: flex;
@@ -142,36 +155,54 @@ main {
 
     .container-menu{
     padding: 1rem;
+    justify-content: center;
     }
     .container-menu-bloco {
-    grid-template-columns: repeat(1, 0.9fr);
-    width: 100%;
-    flex-wrap: wrap;
-    }
     
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu-bloco a{
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+    background-color: #677D6A;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+}
     .container-menu-bloco img {
     width: 100%;
     height: 30%;
     }
 
-    .container-menu-bloco h2, p{
-    font-size: 3rem;
-    display: flex;
+    .container-menu-bloco h2{
+    font-size: 2rem;
     flex-wrap: wrap;
+    display: flex;
     padding: auto;
+    align-items: center;
+    text-align: center;
+}
+
+
+    .container-menu-bloco p{
+    font-size: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    padding: auto;
+    align-items: center;
+    text-align: center;
     }
 
-    .container-menu-bloco a{
-        box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
-        background-color: #677D6A;
-        border-radius: 1rem;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
+
+
+
     .container-menu-bloco a:hover{
         background-color: #40534C;
     }
