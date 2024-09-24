@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400&display=swap');
+body {
+    background-color: #1A3636;
+    color: #EEEEEE;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Gowun Batang", system-ui;
+    font-weight: 400;
+}
+
+header {
+    justify-content: center;
+    margin: 0;
+}
+
+header nav {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #40534C;
+    color: #D6BD98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    padding-left: 2rem;
+}
+
+
+.logo img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.nav-bar {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.nav-bar li {
+    cursor: pointer;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+.container-titulo{
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-titulo-info{
+    justify-content: center;
+    
+}
+
+.container-titulo-info h1, .container-titulo-info h2, .container-titulo-info p{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #D6BD98;
+}
+
+.container-titulo-info p{
+    font-size: 1.5rem;
+}
+
+.container-titulo-info-1{
+    font-size: 2rem;
+    justify-content: left;
+    border-bottom: #ffffff 1px solid;
+    color: #D6BD98;
+    padding-bottom: 0.5rem;
+}
+
+.container-menu{
+    padding: 1rem;
+}
+
+.container-menu-bloco{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+    
+}
+
+.container-menu-bloco a{
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+    background-color: #677D6A;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu-bloco a:hover{
+    background-color: #40534C;
+}
+
+.container-menu-bloco p{
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-menu-bloco img {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px solid #ffffff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+
+@media (max-width: 768px) {
+    .container-menu-bloco {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.container-sobre{
+    padding: 0.5;
+    display: flex;
+    align-items: center;
+    color: #D6BD98;
+    font-size: 1.3rem;
+}
+
+.container-sobre-bloco-1, .container-sobre-bloco-2{
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.container-sobre-bloco-1 img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+.container-newsletter {
+    justify-content: center;
+    
+
+}
+
+.container-newsletter-bloco{
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container-newsletter-bloco h2{
+    font-size: 2rem;
+    color: #D6BD98;
+    text-align: center;
+}
+
+.container-newsletter-bloco p{
+    font-size: 1.5rem;
+    color: #D6BD98;
+    text-align: center;
+}
+
+.container-newsletter-bloco fieldset{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #D6BD98;
+    border-radius: 1rem;
+    box-shadow: 0 0px 30px rgb(64, 84, 77, 0.9);
+    gap: 1.5rem;
+    height: 15rem;
+}
+
+.container-newsletter-dados{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.campo-form::placeholder{
+    color: #D6BD98;
+
+}
+.container-newsletter-dados input{
+    justify-content: center;
+    align-content: center ;
+    border-radius: 0.3rem;
+    height: 2rem;
+    width: 40rem;
+    background-color: #40534C;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.newsletter-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    height: 2rem;
+    width: 20rem;
+    margin-left: 10rem;
+    background-color: #40534C;
+    color: #D6BD98;
+    border: 1px solid #D6BD98;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #677D6A; 
+    color: white; 
+    border: none;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+#submit:hover {
+    background-color: #D6BD98; 
+    color: #000000; 
+}
+
+
+.checkbox-newsletter{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}
+
+.checkbox-newsletter input {
+    opacity: 0; /* Torna o checkbox invisível */
+    position: absolute; /* Remove ele do fluxo visual sem quebrar a funcionalidade */
+    height: 0;
+    width: 0;
+}
+
+.checkbox-newsletter label{
+    position: relative;
+    padding-left: 30px; /* Espaço para o checkbox estilizado */
+    cursor: pointer; /* Permite que o label seja clicável */
+    color: #D6BD98;
+}
+
+/* Estilo do checkbox estilizado */
+.checkbox-newsletter label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo quando o checkbox está marcado */
+.checkbox-newsletter input:checked + label::before {
+    background-color: #D6BD98;
+}
+
+/* Desenho do check */
+.checkbox-newsletter input:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+footer{
+    background-color: #40534C;
+    color: #D6BD98;
+    margin: 0;
+    height: fit-content;
+    font-size: 0.9rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer nav li{
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer section p{
+    font-size: 1.2rem;
+}
+
+.footer-align-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #D6BD98;
+}
+
