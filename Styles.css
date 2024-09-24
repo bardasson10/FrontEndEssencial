@@ -411,7 +411,7 @@ a {
     }
 
     .container-menu-bloco h2{
-    font-size: 2rem;
+    font-size: 3rem;
     flex-wrap: wrap;
     display: flex;
     padding: auto;
@@ -419,7 +419,7 @@ a {
     text-align: center;
 }
     .container-menu-bloco p{
-    font-size: 3rem;
+    font-size: 2rem;
     flex-wrap: wrap;
     display: flex;
     padding: auto;
