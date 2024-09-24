@@ -9,6 +9,8 @@ body {
     height: fit-content;
     font-family: "Gowun Batang", system-ui;
     font-weight: 400;
+    width: 100%;
+    height: 100%;
 }
 
 header {
@@ -102,39 +104,45 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: fit-content;
+    width: 100%;
+    height: 100%;
     height: fit-content;
     gap: 2rem;
+    flex-wrap: wrap;
     
 }
 
 .container-menu-bloco a{
     box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
     background-color: #677D6A;
-    padding: 0;
-    width: fit-content;
+    padding: 0;  
+    width: 100%;
+    
+    gap: 0.5rem;
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    
 }
 
 .container-menu-bloco a:hover{
     background-color: #40534C;
+    transform: scale(1.1);
 }
 
 .container-menu-bloco h2{
-    font-size: 1.3rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container-menu-bloco p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+
+.container-menu-bloco p{
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container-menu-bloco img {
     display: flex;
@@ -146,11 +154,6 @@ main {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
-}
-
-
-.container-menu-bloco img:hover{
-    transform: scale(1.1);
 }
 
 .container-sobre{
@@ -259,12 +262,13 @@ main {
     cursor: pointer;
 }
 
-#submit {
+#submit:hover{
     background-color: #677D6A; 
     color: white; 
     border: none;
     cursor: pointer; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    transform: scale(1.1);
 }
 
 #submit:hover {
@@ -352,15 +356,16 @@ footer nav ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-    flex-wrap: wrap;
     gap: 1rem;
+    align-items: center;
 }
 
 footer nav li{
+    font-size: 0.8rem;
+    display: grid;
     cursor: pointer;
-    display: block;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
 }
 
 footer section p{
@@ -376,64 +381,77 @@ footer section p{
 a {
     text-decoration: none;
     color: #D6BD98;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2{
+    justify-content: center;
+    align-items: center;
 }
 
 
 @media (max-width: 768px) {
 
     .container-menu{
-    padding: 1rem;
-    justify-content: center;
+        padding: 1rem;
+        justify-content: center;
     }
     
     .container-menu-bloco {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 
-.container-menu-bloco a{
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
-    background-color: #677D6A;
-    border-radius: 1rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 80%;
-}
+    .container-menu-bloco a{
+        box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+        background-color: #677D6A;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        }
     .container-menu-bloco img {
     width: 100%;
     height: 30%;
     }
 
     .container-menu-bloco h2{
-    font-size: 3rem;
-    flex-wrap: wrap;
-    display: flex;
-    padding: auto;
-    align-items: center;
-    text-align: center;
-}
+        font-size: 3rem;
+        flex-wrap: wrap;
+        display: flex;
+        padding: auto;
+        align-items: center;
+        text-align: center;
+    }   
     .container-menu-bloco p{
-    font-size: 2rem;
-    flex-wrap: wrap;
-    display: flex;
-    padding: auto;
-    align-items: center;
-    text-align: center;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        display: flex;
+        padding: auto;
+        align-items: center;
+        text-align: center;
     }
 
     .container-menu-bloco a:hover{
-    background-color: #40534C;
+        background-color: #40534C;
     }
 
     .container-sobre{
-    display: flex;
-    flex-direction: column;  
+        display: flex;
+        flex-direction: column; 
+    }
 
+
+    footer nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
     }
 }
