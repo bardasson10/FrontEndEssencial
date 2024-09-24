@@ -141,7 +141,10 @@ main {
         grid-template-columns: repeat(1, 1fr);
     }
 
- 
+    .container-menu-bloco img {
+        width: 90%;
+        height: 20%;
+    }
 }
 
 
