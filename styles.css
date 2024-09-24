@@ -80,7 +80,7 @@ main {
 }
 
 .container-titulo{
-    padding: 1rem;
+    padding: 4rem;
     align-items: center;
     justify-content: center;
 }
@@ -424,10 +424,10 @@ footer h2{
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
 
     .container-menu{
-        padding: 1rem;
+        padding: 2rem;
         justify-content: center;
     }
     
@@ -447,16 +447,16 @@ footer h2{
         text-align: center;
         display: flex;
         flex-direction: column;
+        gap: 2px;;
         flex-wrap: wrap;
-        width: 80%;
         }
-    .container-menu-bloco img {
-    width: 100%;
-    height: 30%;
-    }
+        .container-menu-bloco img {
+        width: 100%;
+        height: 60%;
+        }
 
     .container-menu-bloco h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
         flex-wrap: wrap;
         display: flex;
         padding: auto;
