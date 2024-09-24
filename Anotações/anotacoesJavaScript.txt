@@ -1,0 +1,6 @@
+Aula JavaScript
+
+var = variavel global
+
+
+let = variavel local
