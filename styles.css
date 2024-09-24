@@ -24,6 +24,7 @@ header nav {
     background-color: #40534C;
     color: #D6BD98;
     display: flex;
+    height: fit-content;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
@@ -39,8 +40,13 @@ header nav {
 
 
 .logo img {
-    width: 200px;
+    width: 12rem;
     border-radius: 50%;
+}
+
+.logo:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .nav-bar {
