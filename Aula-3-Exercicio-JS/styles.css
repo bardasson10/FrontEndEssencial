@@ -1,0 +1,43 @@
+
+.bloco-exe{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-exe h2, .bloco-exe p, .bloco-exe button, .bloco-exe fieldset{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+p{
+    font-size: 24px;
+}
+
+button{
+    width: fit-content;
+    padding: 1rem;
+    font-size: 16px;
+    width: 100px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+fieldset{
+    width: 50%;
+    gap: 1rem;
+    margin: 0 auto;
+
+}
+
+#botao1, #botao2, #botao3, #botao4{
+    width: 60%;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+

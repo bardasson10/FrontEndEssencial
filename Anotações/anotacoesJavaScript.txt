@@ -1,6 +1,25 @@
 Aula JavaScript
 
+
+Não preciso definir os tipos de variaveis, o proprio javascript ja entende o tipo de cada variavel.
+
+
+
 var = variavel global
 
 
-let = variavel local
+let = variavel local, mas é possivel colocar o let globalmente.
+
+Melhor valorar suas variaveis no código com let, porque o var, o JavaScript ele coloca em cima na prioridade e vem undefinied,
+so pega valor depois da linha de codigo que ta usando ela, então assim gerando problemas.
+
+
+Sintaxe de um função. Adicione Function mais o nome da função, o parentese de comum. Dentro do parenteses pode se colocar,
+parametros.
+
+function //nomeDaFuncao(){
+}
+
+const //nome da variavel -> valor constante
+
+console.log(//aqui dentro chama o que vc quer ve);

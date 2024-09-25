@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aula 3</title>
+</head>
+<body>
+    <div class="bloco-exe" id="1">
+        <h1>Aula 3</h1>
+        <h2>Exercicio 1</h2>
+        <p>
+        Crie uma página com um botão e um parágrafo. Quando
+        o botão for clicado, altere o texto do parágrafo para "Olá,
+        Mundo!".
+        </p>
+        <p id="mudar-p">Olá, Alunos!</p>
+        <button onclick="mudarTexto();" id="botao1">Mudar parágrafo</button>
+    </div>
+    <div class="bloco-exe" id="2"> 
+        <h1>Aula 3</h1>
+        <h2>Exercicio 2</h2>
+        <p>
+        Crie um botão de "curtir" que ao ser clicado exibe o
+        número de curtidas. Desafio opcional: Adicione um botão
+        de "descurtir" que diminui o número de curtidas.
+        </p>
+        <fieldset>
+            <button onclick="likes();" id="botao2">Likes</button>
+            <button onclick="deslikes();" id="botao2">Deslikes</button>
+        </fieldset>
+        <h2 id="likes">Curtidas: 0</h2>
+    </div>
+    <div class="bloco-exe" id="3">
+        <h1>Aula 3</h1>
+        <h2>Exercicio 3</h2>
+        <p>
+        Crie um botão que, ao ser clicado, exibe uma mensagem
+        de boas-vindas em um alert.
+        </p>
+        <button onclick="alerta();" id="botao3" value="Alerta de boas boas-vindas">aperta para ser bem vindo!</button>
+    </div>
+    <div class="bloco-exe" id="4"> 
+        <h1>Aula 3</h1>
+        <h2>Exercicio 4</h2>
+        <p>
+        Crie um botão que muda o próprio texto ao ser clicado
+        (de "Clique aqui" para "Obrigado por clicar!").
+        </p>
+        <button onclick="mudarTextoBotao();" id="botao4">Clique aqui!</button>
+    </div>
+    <script src="aula3.js"></script>
+</body>
+</html>
