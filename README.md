@@ -21,7 +21,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - **HTML5** para estruturação das páginas;
 - **CSS3** para estilização;
 - **FontAwesome** para ícones modernos e elegantes;
-- **JavaScript (externo)** para carregamento dinâmico de ícones e funcionalidades.
 
 ## 📂 Estrutura do Projeto
 
